@@ -1,0 +1,33 @@
+columns:
+    id:
+        label: ID
+        searchable: true
+
+    name:
+        label: Название
+        searchable: true
+
+    name_h1:
+        label: Название в h1
+        searchable: true
+
+    category_id:
+        label: Категория
+        relation: relCategory
+        valueFrom: name
+        sortable: false
+
+    slug:
+        label: URL
+        searchable: true
+
+    created_at:
+        label: Дата создания
+        type: datetime
+        format: H:i, d.m.Y
+
+    updated_at:
+        label: Дата изменения
+        type: datetime
+        format: H:i, d.m.Y
+        invisible: true

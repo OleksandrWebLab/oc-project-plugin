@@ -1,0 +1,6 @@
+title: Сортировка категорий
+modelClass: Bronx\Project\Models\Category
+nameFrom: name
+
+toolbar:
+    buttons: reorder_toolbar

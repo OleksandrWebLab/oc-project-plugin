@@ -1,0 +1,23 @@
+columns:
+    id:
+        label: ID
+        searchable: true
+
+    name:
+        label: Название
+        searchable: true
+
+    name_h1:
+        label: Название в h1
+        searchable: true
+
+    slug:
+        label: URL
+        searchable: true
+
+    relProject:
+        label: Проектов
+        relation: relProject
+        valueFrom: count
+        default: 0
+        sortable: false

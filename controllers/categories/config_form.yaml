@@ -1,0 +1,17 @@
+name: Категория
+modelClass: Bronx\Project\Models\Category
+form: $/bronx/project/models/category/fields.yaml
+defaultRedirect: bronx/project/categories
+
+create:
+    title: Создать категорию
+    redirect: bronx/project/categories/update/:id
+    redirectClose: bronx/project/categories
+
+update:
+    title: Изменить категорию
+    redirect: bronx/project/categories
+    redirectClose: bronx/project/categories
+
+preview:
+    title: Просмотр категории

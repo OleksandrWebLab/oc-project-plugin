@@ -1,0 +1,3 @@
+fields:
+    google_maps_key:
+        label: Google Maps API Key

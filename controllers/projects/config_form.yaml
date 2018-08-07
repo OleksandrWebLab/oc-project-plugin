@@ -1,0 +1,17 @@
+name: Проект
+modelClass: Bronx\Project\Models\Project
+form: $/bronx/project/models/project/fields.yaml
+defaultRedirect: bronx/project/projects
+
+create:
+    title: Создать проект
+    redirect: bronx/project/projects/update/:id
+    redirectClose: bronx/project/projects
+
+update:
+    title: Изменить проект
+    redirect: bronx/project/projects
+    redirectClose: bronx/project/projects
+
+preview:
+    title: Предварительный просмотр

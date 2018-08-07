@@ -1,0 +1,6 @@
+title: Сортировка проектов
+modelClass: Bronx\Project\Models\Project
+nameFrom: name
+
+toolbar:
+    buttons: reorder_toolbar

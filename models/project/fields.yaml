@@ -1,0 +1,83 @@
+fields:
+    name:
+        label: Название
+        span: left
+
+    name_h1:
+        label: Название в h1
+        span: right
+
+    relCategory:
+        label: Категория
+        span: full
+        type: relation
+
+tabs:
+    fields:
+        short_description:
+            label: Краткое описание
+            tab: Описание
+            type: textarea
+            size: small
+
+        description:
+            label: Описание
+            tab: Описание
+            type: markdown
+            size: giant
+
+        relFiles:
+            tab: Вложения
+            label: Файлы
+            type: fileupload
+            mode: file
+
+        relImages:
+            tab: Вложения
+            label: Фотографии
+            type: fileupload
+            mode: image
+            imageHeight: 265
+            imageWidth: 265
+
+        meta_title:
+            label: Meta title
+            tab: SEO
+            span: left
+
+        meta_keywords:
+            label: Meta keywords
+            tab: SEO
+            span: right
+
+        meta_description:
+            label: Meta description
+            tab: SEO
+            type: textarea
+            size: small
+            span: full
+
+secondaryTabs:
+    fields:
+        relImage:
+            type: fileupload
+            mode: image
+            imageHeight: 265
+            imageWidth: 265
+
+        addressfinder:
+            label: Адрес
+            type: addressfinder
+            fieldMap:
+                latitude: latitude
+                longitude: longitude
+
+        latitude:
+            label: Широта
+            span: left
+            placeholder: 48.483905
+
+        longitude:
+            label: Долгота
+            span: right
+            placeholder: 35.063425

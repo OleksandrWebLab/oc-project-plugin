@@ -1,0 +1,6 @@
+2018.06.1:
+    - First version of Project
+    - migration_file_1_0.php
+    - migration_category_1_0.php
+    - migration_project_1_0.php
+    - plugin_seeder.php

@@ -1,0 +1,39 @@
+fields:
+    name:
+        label: Название
+        span: left
+
+    name_h1:
+        label: Название в h1
+        span: right
+
+tabs:
+    fields:
+        description:
+            label: Описание
+            tab: Описание
+            type: markdown
+            size: huge
+
+        meta_title:
+            label: Meta title
+            tab: SEO
+            span: left
+
+        meta_keywords:
+            label: Meta keywords
+            tab: SEO
+            span: right
+
+        meta_description:
+            label: Meta description
+            tab: SEO
+            type: textarea
+            size: small
+            span: full
+
+secondaryTabs:
+    fields:
+        relImage:
+            type: fileupload
+            mode: image

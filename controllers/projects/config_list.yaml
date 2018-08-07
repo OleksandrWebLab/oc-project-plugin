@@ -1,0 +1,16 @@
+title: Управление проектами
+modelClass: Bronx\Project\Models\Project
+list: $/bronx/project/models/project/columns.yaml
+recordUrl: bronx/project/projects/update/:id
+noRecordsMessage: backend::lang.list.no_records
+recordsPerPage: 20
+showPageNumbers: true
+showSetup: true
+showSorting: true
+showCheckboxes: true
+
+toolbar:
+    buttons: list_toolbar
+
+    search:
+        prompt: backend::lang.list.search_prompt
